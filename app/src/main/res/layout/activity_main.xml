@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="奶昔小希 控制面板"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="头部角度调节"
+        android:textSize="18sp"/>
+
+    <SeekBar
+        android:id="@+id/motorAngleSeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:spacing="20dp">
+
+        <Button
+            android:id="@+id/lightOnBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灯光开启"/>
+
+        <Button
+            android:id="@+id/lightOffBtn"
+            android:layout_width="splash_parent"
+            android:layout_height="wrap_content"
+            android:text="灯光关闭"/>
+    </LinearLayout>
+
+    <ToggleButton
+        android:id="@+id/modeSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="高级拟人模式"
+        android:textOff="基础行车模式"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

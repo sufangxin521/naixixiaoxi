@@ -1,0 +1,32 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.naixixiaoqi.robotctrl.test" >
+4
+5    <uses-sdk
+5-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:11:5-15:75
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:13:22-53
+13        android:label="Tests for com.naixixiaoqi.robotctrl"
+13-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:15:22-73
+14        android:targetPackage="com.naixixiaoqi.robotctrl" />
+14-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:12:22-71
+15
+16    <application android:debuggable="true" >
+16-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:7:5-9:19
+17        <uses-library android:name="android.test.runner" />
+17-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:8:9-60
+17-->C:\Users\simon\Desktop\Naixiappv3.1\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1530279394530353534.xml:8:23-57
+18    </application>
+19
+20</manifest>

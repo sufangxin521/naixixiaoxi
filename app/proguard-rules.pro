@@ -1,0 +1,3 @@
+-keep class org.eclipse.paho.** { *; }
+-keep class org.json.** { *; }
+-keep class com.naixixiaoqi.robotctrl.** { *; }
