@@ -1,0 +1,37 @@
+name: Build APK
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 拉取项目代码
+        uses: actions/checkout@v4
+
+      - name: 安装适配旧工程的JDK11
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+
+      - name: 固定匹配的Gradle 7.2版本
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '7.2'
+
+      - name: 修复执行权限
+        run: chmod +x gradlew
+
+      - name: 编译安卓安装包
+        run: ./gradlew assembleDebug
+
+      - name: 保存成品APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: 奶昔小希_控制APP
+          path: app/build/outputs/apk/debug/*.apk
